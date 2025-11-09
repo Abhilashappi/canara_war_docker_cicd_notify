@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_USERNAME = 'abhi539'
         DOCKER_IMAGE = "${DOCKERHUB_USERNAME}/canara_sak"
-        DOCKER_CONTAINER = 'abhi539/spring-kannada-poets'
+        DOCKER_CONTAINER = 'abhi539/canara_sak'
     }
 
     parameters {
