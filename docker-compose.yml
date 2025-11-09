@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   canara_app:
-    image: sakit333/canara_sak
-    container_name: canara_app_sak
+    image: abhi539/spring-kannada-poets
+    container_name: spring-kannada-poets
     build:
       context: .
       dockerfile: Dockerfile
