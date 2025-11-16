@@ -10,7 +10,7 @@ pipeline {
     parameters {
         choice(name: 'ENVIRONMENT', choices: ['dev', 'prod'], description: 'Select deployment environment')
         choice(name: 'ACTION', choices: ['deploy', 'remove'], description: 'Select action to perform')
-        string(name: 'RECEIVER_EMAIL', defaultValue: 'sak@gmail.com', description: 'Comma-separated recipient emails')
+        string(name: 'RECEIVER_EMAIL', defaultValue: 'abhishekhabdvt@gmail.com', description: 'Comma-separated recipient emails')
     }
 
     stages {
